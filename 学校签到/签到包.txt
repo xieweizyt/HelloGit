@@ -1,0 +1,90 @@
+签到
+
+GET /WCF/DGSX/SIGNIN/AddItem?jsoncallback=jQuery18309785162047917675_1538985782863&para=%7B%22BATCH_ID%22%3A16%2C%22USER_CODE%22%3A%22201600002464%22%2C%22LOCATION_JSON%22%3A%22%7B%5C%22lat%5C%22%3A22.543099%2C%5C%22lng%5C%22%3A114.057868%7D%22%2C%22SIGNIN_ADDR%22%3A%22%E4%B8%AD%E5%9B%BD%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B7%B1%E5%9C%B3%E5%B8%82%E7%A6%8F%E7%94%B0%E5%8C%BA%22%7D&token=430867246E544AD4BEC8E987D1753997&_=1538985796144 HTTP/1.1
+Host: e.yvtc.edu.cn:12805
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 LBBROWSER
+Accept: */*
+Referer: http://e.yvtc.edu.cn:805/general/supervise/Signin/Create.html?_winid=w8982&_t=131823
+Accept-Language: zh-CN,zh;q=0.8
+Connection: close
+
+jsoncallback=jQuery18309785162047917675_1538985782863&para={"BATCH_ID":16,"USER_CODE":"201600002464","LOCATION_JSON":"{\"lat\":22.543099,\"lng\":114.057868}","SIGNIN_ADDR":"中国广东省深圳市福田区"}&token=430867246E544AD4BEC8E987D1753997&_=毫秒数
+
+手机签到包
+GET /WCF/DGSX/SIGNIN/AddItem?jsoncallback=jQuery1830626980813438146_1547601564345&para=%7B%22BATCH_ID%22%3A16%2C%22USER_CODE%22%3A%22201600002464%22%2C%22LOCATION_JSON%22%3A%22%7B%5C%22lat%5C%22%3A%5C%2222.495777%5C%22%2C%5C%22lng%5C%22%3A%5C%22113.91978%5C%22%7D%22%2C%22SIGNIN_ADDR%22%3A%22%E5%8D%97%E5%B1%B1%E5%A4%A7%E5%8E%A6-%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%8D%97%E5%B1%B1%E5%8C%BA%E5%8D%97%E6%B5%B7%E5%A4%A7%E9%81%931065%E5%8F%B7%22%7D&token=4E3346F60FA74675919638D9D9432F31&_=1547601598843 HTTP/1.1
+Host: e.yvtc.edu.cn:12805
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Linux; Android 5.1; OPPO R9m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044408 Mobile Safari/537.36 MicroMessenger/6.6.7.1321(0x26060736) NetType/4G Language/zh_CN
+Accept: */*
+Referer: http://e.yvtc.edu.cn/weixin/dgsx/sign_in/create.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,en-US;q=0.8
+Cookie: ASP.NET_SessionId=g00adronfrf55kubb2yozpyr
+
+
+
+
+
+
+签到返回值：jQuery1830626980813438146_1547601564345("{\"Success\":true,\"Code\":\"0\",\"Msg\":\"成功\",\"Data\":null}");
+
+日志返回值：{"Success":true,"Code":"0","Msg":"成功","Data":null}
+
+
+
+
+
+
+日志
+
+POST /WebAPI/Supervise/LogAPI.aspx HTTP/1.1
+Host: e.yvtc.edu.cn:805
+Content-Length: 221
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://e.yvtc.edu.cn:805
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 LBBROWSER
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://e.yvtc.edu.cn:805/general/supervise/Log/Create.html?_winid=w3681&_t=243210
+Accept-Language: zh-CN,zh;q=0.8
+Connection: close
+
+para=%7B%22BATCH_ID%22%3A16%2C%22RECORDER_TYPE%22%3A0%2C%22USER_CODE%22%3A%22201600002464%22%2C%22LOG_TITLE%22%3A%2210-8%22%2C%22LOG_CONTENT%22%3A%22%E4%B8%8A%E7%8F%AD%22%7D&token=C499ED457630431A9354C43FCC40F582&func=add
+
+para={"BATCH_ID":16,"RECORDER_TYPE":0,"USER_CODE":"201600002464","LOG_TITLE":"10-
+8","LOG_CONTENT":"上班"}&token=C499ED457630431A9354C43FCC40F582&func=add
+
+登录（获取token）
+
+GET /WCF/JCSJ/User/Login?jsoncallback=jQuery18303039379723668494_1539056779782&para=%7B%22LOGIN_NAME%22%3A%22201600002464%22%2C%22LOGIN_PWD%22%3A%22360899%22%7D&_=1539056814113 HTTP/1.1
+Host: e.yvtc.edu.cn:12800
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Accept: */*
+Referer: http://e.yvtc.edu.cn/login.html
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+http://e.yvtc.edu.cn:12800/WCF/JCSJ/User/Login?jsoncallback=jQuery183014759118188133535_1539057122764&para=%7B%22LOGIN_NAME%22%3A%22201600002464%22%2C%22LOGIN_PWD%22%3A%22360899%22%7D&_=毫秒数
+
+
+
+POST /WebAPI/Supervise/LogAPI.aspx HTTP/1.1
+Host: e.yvtc.edu.cn:805
+Content-Length: 1139
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://e.yvtc.edu.cn:805
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 LBBROWSER
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://e.yvtc.edu.cn:805/general/supervise/Log/Create.html?_winid=w7634&_t=834554
+Accept-Language: zh-CN,zh;q=0.8
+Connection: close
+{"BATCH_ID":16,"RECORDER_TYPE":0,"USER_CODE":"201600002464","LOG_TITLE":"1-15","LOG_CONTENT":"上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班上班"}&token=B9DC4075D8AB49E5AB6659953E8B1066&func=add
+
+
+
+
+
+
+
+
