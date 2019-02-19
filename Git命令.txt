@@ -1,2 +1,8 @@
 克隆远程仓库：git clone url
 克隆其他分支：git checkout  -b (分支名) origin/(分支名)
+
+添加文件：git add
+提交文件:git commit -m "添加说明"
+提交到远程仓库：git push -u origin 远程分支名称
+
+
