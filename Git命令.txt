@@ -1,0 +1,2 @@
+克隆远程仓库：git clone url
+克隆其他分支：git checkout  -b (分支名) origin/(分支名)
